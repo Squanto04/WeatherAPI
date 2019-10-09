@@ -19,16 +19,12 @@ struct WeatherTLD: Decodable  {
         case name
     }
     
-    let weather: [WeatherDictionary]
+    let weather: [Weather]
     let temps: Temps
     let visibility: Int
     let wind: Wind
     let clouds: Cloud
     let name: String
-}
-
-struct WeatherDictionary: Decodable {
-    let weather: Weather
 }
 
 struct Weather: Decodable {

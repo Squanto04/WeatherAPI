@@ -15,7 +15,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        WeatherController.getWeatherFor(zipcode: 84062) { (weather) in
+            print(weather.name)
+            print(weather.weather[0].title)
+            print(weather.weather[0].description)
+        }
         return true
     }
 
