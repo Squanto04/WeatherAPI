@@ -13,6 +13,7 @@
 		35E0773F234E5B710011BAE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35E0773D234E5B710011BAE2 /* LaunchScreen.storyboard */; };
 		35E07749234E5BE70011BAE2 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E07748234E5BE70011BAE2 /* Weather.swift */; };
 		35E0774C234E60420011BAE2 /* Weather Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0774B234E60420011BAE2 /* Weather Controller.swift */; };
+		35E07750234E70500011BAE2 /* WeatherDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E0774F234E70500011BAE2 /* WeatherDetailTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		35E07740234E5B710011BAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35E07748234E5BE70011BAE2 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		35E0774B234E60420011BAE2 /* Weather Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Weather Controller.swift"; sourceTree = "<group>"; };
+		35E0774F234E70500011BAE2 /* WeatherDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				35E0774A234E5FF10011BAE2 /* Models */,
 				35E0774D234E60450011BAE2 /* Model Controllers */,
+				35E0774E234E70310011BAE2 /* View Controllers */,
 				35E07747234E5B9C0011BAE2 /* Views */,
 				35E07746234E5B8B0011BAE2 /* Resources */,
 			);
@@ -97,6 +100,14 @@
 				35E0774B234E60420011BAE2 /* Weather Controller.swift */,
 			);
 			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		35E0774E234E70310011BAE2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				35E0774F234E70500011BAE2 /* WeatherDetailTableViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				35E07749234E5BE70011BAE2 /* Weather.swift in Sources */,
 				35E0774C234E60420011BAE2 /* Weather Controller.swift in Sources */,
 				35E07735234E5B700011BAE2 /* AppDelegate.swift in Sources */,
+				35E07750234E70500011BAE2 /* WeatherDetailTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
